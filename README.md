@@ -61,7 +61,7 @@ comparing *diurnal* vs *nocturnal* species.
 | GO/KEGG Enrichment | Enriched biological processes and pathways | `results/GO_Enrichment_Results_up_diurnal.csv` |
 | Visualization Plots | Publication-ready figures | `plots/GO_Enrichment_diurnal_up.png`, `plots/KEGG_pathway_enrichment_diurnal_up.png` |
 
----
+
 
 ## Repository Structure
 
@@ -91,7 +91,7 @@ cichlid_rnaseq/
 
 
 
----
+
 
 ## Reproducibility Instructions
 
@@ -104,4 +104,5 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 BiocManager::install(c("DESeq2", "clusterProfiler", "org.Dr.eg.db", "pheatmap"))
 install.packages(c("tidyverse", "ggplot2", "RColorBrewer", "ggrepel"))
 ```
+
 
