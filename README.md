@@ -104,3 +104,4 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 BiocManager::install(c("DESeq2", "clusterProfiler", "org.Dr.eg.db", "pheatmap"))
 install.packages(c("tidyverse", "ggplot2", "RColorBrewer", "ggrepel"))
 ```
+
